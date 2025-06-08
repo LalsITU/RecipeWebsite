@@ -32,7 +32,7 @@
 
 #navbar__logo {
   background-color: #ff8177;
-  background-image: linear-gradient(to top, #ff0844 0%, #ffb199 100%);
+  background-image: linear-gradient(to top, #4e774e 0%, #45b045 100%);
   background-size: 100%;
   -webkit-background-clip: text;
   -moz-background-clip: text;
@@ -229,7 +229,7 @@
 .main__content h1 {
   font-size: 4rem;
   background-color: #ff8177;
-  background-image: linear-gradient(to top, #ff0844 0%, #ffb199 100%);
+  background-image: linear-gradient(to top, #4e774e 0%, #45b045 100%);
   background-size: 100%;
   -webkit-background-clip: text;
   -moz-background-clip: text;
@@ -240,7 +240,7 @@
 .main__content h2 {
   font-size: 4rem;
   background-color: #ff8177;
-  background-image: linear-gradient(to top, #b721ff 0%, #21d4fd 100%);
+  background-image: linear-gradient(to top, #4e774e 0%, #45b045 100%);
   background-size: 100%;
   -webkit-background-clip: text;
   -moz-background-clip: text;
@@ -252,12 +252,12 @@
   margin-top: 1rem;
   font-size: 2rem;
   font-weight: 700;
-  color: #fff;
+  color: #141414;
 }
 
 .main__btn {
   font-size: 1;
-  background-image: linear-gradient(to top, #f77062 0%, #fe5196 100%);
+  background-image: linear-gradient(to top, #4e774e 0%, #45b045 100%);
   padding: 14px 32px;
   border: none;
   border-radius: 4px;
@@ -303,6 +303,7 @@
 #main__img {
   height: 80%;
   width: 80%;
+  border-radius: 10px;
 }
 
 /* Mobile Responsive */
@@ -370,15 +371,15 @@
 }
 
 .services h1 {
-  background: #ff8177;
+  background: #4e774e;
   background-image: linear-gradient(
     to right,
-    #ff8177 0%,
-    #ff867a 0%,
-    #ff8c7f 21%,
-    #f99185 52%,
-    #cf556c 78%,
-    #b12a5b 100%
+    #4e774e 0%,
+    #5e774e 0%,
+    #6e774e 21%,
+    #7e774e 52%,
+    #8e774e 78%,
+    #9e774e 100%
   );
   background-size: 100%;
   margin-bottom: 5rem;
@@ -405,10 +406,10 @@
       rgba(0, 0, 0, 0) 0%,
       rgba(17, 17, 17, 0.6) 100%
     ),
-    url("images/pic3.jpg");
+    url("images/sourdough_bread.jpeg");
   background-size: cover;
   position: relative;
-  color: #141414; /*#fff; */
+  color: #fff;
 }
 
 .services__card:nth-child(2) {
@@ -417,7 +418,7 @@
       rgba(0, 0, 0, 0) 0%,
       rgba(17, 17, 17, 0.6) 100%
     ),
-    url("images/pic4.jpg");
+    url("images/pizza.jpeg");
 }
 
 .services h2 {
@@ -433,12 +434,12 @@
 }
 
 .services__card button {
-  color: #141414; /* #fff; */
+  color: #fff;
   padding: 10px 20px;
   border: none;
   outline: none;
   border-radius: 4px;
-  background: #f77062;
+  background: #4e774e;
   position: absolute;
   top: 440px;
   left: 30px;
