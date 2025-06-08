@@ -537,8 +537,15 @@
 
 /* Social  Icons */
 .social__icon--link {
-  color: #141414; /*#fff;*/
-  font-size: 24px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  text-decoration: none;
+  color: #141414;
+}
+
+.fab.fa-instagram {
+  color: #141414;
 }
 
 .social__media {
