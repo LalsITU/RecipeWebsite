@@ -366,8 +366,10 @@
 
 .recipe-card img {
   width: 100%;
-  height: auto;
-  border-radius: 4px;
+  height: 450px;
+  max-height: 400px;
+  object-fit: cover;
+  border-radius: 8px;
 }
 
 .recipe-card p {
